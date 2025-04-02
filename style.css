@@ -1,0 +1,264 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+    .navbar{
+  height: 60px;
+  background-color: black;
+  color: white;
+ display: flex;
+ text-align: center
+}
+.logo{
+  background-image: url("img/l1.jpg");
+  background-size: 60px;
+  height: 60px;
+  width: 61.5px;
+}
+.instagram{
+  font-size: 50px;
+  padding-left: 50.5px;
+  
+}
+.one{
+  padding-top: 10px;
+  padding-left: 7px;
+}
+.hamid1{
+  text-decoration: none;
+  color: red;
+}
+.facebook{
+  font-size: 50px ;
+  padding-left: 50.5px;
+}
+.two{
+  padding-top: 10px;
+  padding-left: 7px;
+}
+.hamid2{
+  text-decoration: none;
+  color: red;
+}
+.youtube{
+  font-size: 50px;
+  padding-left: 50.5px;
+}
+.three{
+  padding-top: 10px;
+  padding-left: 7px;
+  
+}
+.hamid3{
+  text-decoration: none;
+  color: red;
+}
+.four{
+  color: red;
+  padding-top: 8px;
+  padding-left: 50.5px;
+}
+.hamid4{
+  text-align: top;
+  padding-top: 20px;
+  width: 250px ;
+}
+.five{
+  padding-top: 8px;
+}
+.hamid5{
+  font-size: 30px;
+}
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 2.5px solid white;
+}
+.box1{
+  background-color: green;
+  color: white ;
+}
+.border{
+   border: 2px;
+}
+
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    border: 5px solid red;
+}
+
+.slide-track {
+    display: flex;
+    width :1700%;
+    animation: slide 10s alternate infinite;
+}
+
+.slide-track img {
+    width: 1%;
+    flex-shrink: 0;
+}
+
+@keyframes slide {
+    0% { transform: translatex(0%); }
+    20% { transform: translatex(-4%); }
+    40% { transform: translateX(-8%); }
+    60% { transform: translateX(-12%); }
+    80% { transform: translatex(-16%); }
+    100% { transform: translateX(0%); }
+}
+.box2{
+  height: 794px;
+  border: 5px solid red;
+}
+.mate{
+  background-color: mediumvioletred;
+}
+.in{
+  background-image: url("img/mate1.jpg");
+  height: 394px;
+  background-size: 700px;
+}
+.out{
+  background-image: url("img/MATE2.jpg");
+  height: 400px;
+  background-size: 700px;
+}
+.hp{
+  background-color: mediumvioletred;
+}
+.video-container {
+            display: flex;
+            gap: 20px;
+        }
+        
+
+        .video-box {
+            padding: 4.5px;
+          
+        }
+ .video1{
+    border: 5px solid red; 
+}
+        .video2 {
+            border: 5px solid blue;
+        }
+
+        .video3 {
+            border: 5px solid green;
+        }
+        .video4 {
+          border: 5px solid mediumvioletred;
+        }
+        .video-hameed{
+          display: flex;
+          gap : 20px 
+        }
+        
+        .anw{
+          padding: 4.5px;
+        }
+        
+        .v1{
+          border: 5px solid darkorange;
+        }
+        .v2{
+          border: 5px solid saddlebrown;
+        }
+        .v3{
+          border: 5px solid lawngreen;
+        }
+        .v4{
+          border: 5px solid rebeccapurple;
+        }
+        .hp2{
+          background-color: greenyellow;
+          
+        }
+        .tree{
+          background-color :brown;
+        }
+        .video-haai{
+          display: flex;
+          gap: 20px;
+        }
+        .gg{
+          padding: 4.5px;
+        }
+        .t1{
+          border: 5px solid yellow;
+        }
+        .t2{
+          border: 5px solid orchid;
+        }
+        .t3{
+          border: 5px solid brown;
+        }
+        .t4{
+          border: 5px solid deepskyblue;
+        }
+        .footer{
+          background-color: black;
+        }
+        .free{
+        
+          width: 100px;
+          padding: 70px 30px 20px ;
+        }
+  .footercom{
+         display:  flex;
+         padding-left: 400px;
+        } 
+  .footercom a{
+          padding: 10px;
+          background-color: white;
+          margin: 30px;
+          border-radius: 50%;
+          
+        }
+   .footercom a i{
+          font-size:2em;
+          color: black; 
+          opacity: 0.9;
+          
+        }
+        .footercom a:hover{
+          background-color: black;
+          transition: 0.5s
+        }
+        .footercom a:hover i{
+          color: white;
+          transition: 0.5s;
+        }
+        .thar{
+          margin: 30px 0;
+        }
+        .thar ul{
+          display: flex;
+          padding-left: 200px;
+        }
+        .thar ul li a{
+          color: white;
+          margin: 50px;
+          text-decoration: none;
+          font-size: 1.3em;
+          opacity: 0.7;
+          transition: 0.5s
+        }
+        .thar ul li a:hover{
+          opacity: 1;
+        }
+        .shh{
+          background-color: darkturquoise;
+          padding: 20px;
+          text-align: center;
+        }
+        .shh p{
+          color: white;
+        }
+        
